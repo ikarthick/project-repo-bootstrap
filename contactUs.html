@@ -126,10 +126,10 @@
       
       <!--Update the URL for thank you page on form submit -->
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-      onload="if(submitted) {window.location='http://zerobudget.club/';}"></iframe> 
+      onload="if(submitted) { alert('Thanks for Contacting Us'); }"></iframe> 
       
       <!-- Update the Google forms URL in action-->
-      <form action="https://docs.google.com/spreadsheet/ccc?key\u003d[key]\u0026usp\u003d[usp]#gid\u003dform" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9Lqbh_0G46812L0fZ_T8iu_YkC4_SblYlP0cxSsdU_9y3SQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
   
         
         <div class="w3-section">
@@ -146,7 +146,7 @@
         </div>
         <div class="w3-section">
             <label>Message</label>
-            <input class="w3-input w3-border" type="text" placeholder="Message" id="Message" required name="entry.2014991492">
+            <input class="w3-input w3-border" type="text" placeholder="Message" id="Message" name="entry.2014991492">
           </div>
   
         <div class="w3-section">

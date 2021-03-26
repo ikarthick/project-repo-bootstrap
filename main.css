@@ -69,7 +69,7 @@ html,body{ margin:0; padding:0; height:100%; width:100%;background: #f2f6e9;  }
 }
 
 .navbar {
-	background: #6ab446;
+	background: rgba(39, 4, 71, 0.4);
 }
 
 .nav-link,

@@ -73,12 +73,12 @@ p{
 }
 
 .navbar {
-	background: rgba(17, 51, 1, 0.4);
+	background: white;
 }
 
 .nav-link,
 .navbar-brand {
-	color: #fff;
+	color: darkblue;
 	cursor: pointer;
 }
 
@@ -94,6 +94,7 @@ p{
 	justify-content: flex-end;
 }
 
+
 /*--- header ---*/
 
 .header {
@@ -104,7 +105,6 @@ p{
 	background-attachment: fixed;
 
 }
-
 
 .overlay {
 	position: absolute;

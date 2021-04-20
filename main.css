@@ -189,9 +189,30 @@ p{
 /*--- team section ---*/
 
 .background {
-	background:rgba(185, 180, 224, 0.4);
-	padding: 4em 0;
+	background-image: url('./images/bg_img_product.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
 }
+
+.background_prod {
+	background-image: url('./images/bg_prod.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.bg_title {
+	background-image: url('./images/product_background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+
 
 .team {
 	color: #5e5e55;

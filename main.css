@@ -140,13 +140,14 @@ p{
 /*--- header ---*/
 
 .header {
-    background-image: url('images/pp-2.png');
+    background-image: url('images/main_copy.png');
 	background-size: cover;
 	background-position: center;
 	position: relative;
 	background-attachment:scroll;
 
 }
+
 
 .overlay {
 	position: absolute;
